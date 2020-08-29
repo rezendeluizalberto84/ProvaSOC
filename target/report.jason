@@ -1,0 +1,117 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2020-08-29T13:01:03.596Z",
+        "line": 9,
+        "name": "Deve exibir no resultado o que foi inserido no campo Busca",
+        "description": "",
+        "id": "buscar-algum-artigo-pelo-campo-de-busca;deve-exibir-no-resultado-o-que-foi-inserido-no-campo-busca",
+        "after": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat Steps.EstimarFapSteps.screenshots(EstimarFapSteps.java:59)\r\n",
+              "duration": 3000000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "Steps.EstimarFapSteps.screenshots(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 493000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.BuscarNoBlogSteps.screenshots(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat Steps.EstimarFapSteps.fecharBrowser(EstimarFapSteps.java:69)\r\n",
+              "status": "failed"
+            },
+            "match": {
+              "location": "Steps.EstimarFapSteps.fecharBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 704000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.BuscarNoBlogSteps.fecharBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 8925000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "que estou acessando a aplicação",
+            "match": {
+              "location": "Steps.BuscarNoBlogSteps.queEstouAcessandoAAplicação()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 72000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "informo a palavra \"home office\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"home office\"",
+                  "offset": 18
+                }
+              ],
+              "location": "Steps.BuscarNoBlogSteps.informoAPalavra(java.lang.String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 1944000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "seleciono Buscar",
+            "match": {
+              "location": "Steps.BuscarNoBlogSteps.selecionoBuscar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 33000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "o resultado é exibido com sucesso",
+            "match": {
+              "location": "Steps.BuscarNoBlogSteps.oResultadoÉExibidoComSucesso()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      }
+    ],
+    "name": "Buscar algum artigo pelo campo de Busca",
+    "description": "    Como usuário\n    Gostaria de buscar um artigo no blog através do campo Busca\n    Para que eu possa visualizar o resultado da busca",
+    "id": "buscar-algum-artigo-pelo-campo-de-busca",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/test/resources/features/Buscar_no_blog.feature",
+    "tags": []
+  }
+]
